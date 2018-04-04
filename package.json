@@ -1,0 +1,24 @@
+{
+  "name": "getting-started-with-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handlers.js",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rickydo/getting-started-with-nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rickydo/getting-started-with-nodejs/issues"
+  },
+  "homepage": "https://github.com/rickydo/getting-started-with-nodejs#readme"
+}
