@@ -19,12 +19,22 @@ const {
 //   }
 // });
 
+// long synchronous
+// for loops are synchronous
+// it will block the event loop
+
+// for(let i = 0, i < 1e10; i++){
+//
+// }
+
 // using express down below
 const express = require('express');
 const server = express();
 
 server.get('/', rootHandler);
 server.get('/about', aboutHandler);
+
+// middleware
 server.use(notFoundHandler);
 
 server.listen(3333, () => {
